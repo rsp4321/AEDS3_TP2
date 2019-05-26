@@ -39,7 +39,7 @@ OBJECTFILES= \
 
 
 # C Compiler Flags
-CFLAGS=
+CFLAGS=-Wall -ansi -pedantic -O2 -U_FORTIFY_SOURCE
 
 # CC Compiler Flags
 CCFLAGS=

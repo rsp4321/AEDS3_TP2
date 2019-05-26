@@ -37,6 +37,7 @@
       <compileType>
         <cTool>
           <standard>3</standard>
+          <commandLine>-Wall -ansi -pedantic -O2 -U_FORTIFY_SOURCE</commandLine>
         </cTool>
       </compileType>
       <item path="main.c" ex="false" tool="0" flavor2="0">
@@ -52,6 +53,7 @@
         <cTool>
           <developmentMode>5</developmentMode>
           <standard>3</standard>
+          <commandLine>-Wall -ansi -pedantic -O2 -U_FORTIFY_SOURCE</commandLine>
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
