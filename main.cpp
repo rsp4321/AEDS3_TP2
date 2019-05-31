@@ -10,20 +10,11 @@
 /****************************************************/
 
 /*
- * File:   main.c
- * Author: rodrigo
- *
- * Created on 25 de maio de 2019, 23:21
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 //#include "registros.h"
 #include "io.h"
 
-/*
- *
- */
 int main(int argc, char** argv) {
 
     salvarRegistroCSV(NULL);
@@ -34,4 +25,17 @@ int main(int argc, char** argv) {
 
     return (EXIT_SUCCESS);
 }
+*/
+
+#include <iostream>
+#include "io.h"
+
+using namespace std;
+
+int main()
+{
+    cout << "Hello world!" << endl;
+    return 0;
+}
+
 
