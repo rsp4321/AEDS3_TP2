@@ -28,6 +28,10 @@ int main(int argc, char** argv) {
 
     salvarRegistroCSV(NULL);
 
+//    printf("%s\n",NOME_ARQUIVO);
+//    printf("%s\n",CAMINHO_ARQUIVO);
+//    printf("%s\n",PATH_SEPARATOR);
+
     return (EXIT_SUCCESS);
 }
 
