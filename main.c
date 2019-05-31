@@ -18,12 +18,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "registros.h"
+//#include "registros.h"
+#include "io.h"
 
 /*
  *
  */
 int main(int argc, char** argv) {
+
+    salvarRegistroCSV(NULL);
 
     return (EXIT_SUCCESS);
 }

@@ -5,10 +5,19 @@
 #define MAX_REGISTROS 1000000000
 #define MAX_CHARS 80
 
+/*
 char ceps[] = {
-    "36180-000", "25500-000", "36140-000", "37510-234", "12240-000",
-    "34567-111", "76456-322", "45654-987", "98765-216", "40000-000"
-};
+//char ceps[10] = {
+//char ceps[9][10] = {
+*/
+//const char ceps[10][9] = {
+//char ceps[10][9] = {
+//
+//    "36180-000", "25500-000", "36140-000", "37510-234", "12240-000",
+//    "34567-111", "76456-322", "45654-987", "98765-216", "40000-000"
+//};
+// Não podem ser colocadas variáveis constantes em arquivos do tipo header em C :^S
+
 
 typedef struct {
     char cpf[11];           // 11 algarismos aleatórios
