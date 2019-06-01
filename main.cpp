@@ -5,7 +5,7 @@
 /* 2 Trabalho Prático -- Ordenaçao Externa          */
 /* DCC288 -- 2019 -- IFSEMG, 3o.                    */
 /* Prof. Flávio Augusto de Freitas                  */
-/* Compilador: ... (gcc ou Code::Blocks) versao ... */
+/* Compilador: CodeBlocks versão 17.12              */
 /* Sistema Operacional: ...                         */
 /****************************************************/
 
@@ -27,13 +27,19 @@ int main(int argc, char** argv) {
 }
 */
 
+//#include <cstdlib>
 #include <iostream>
-#include "io.h"
+//#include "io.h"
+#include "io.hpp"
 
 using namespace std;
 
 int main()
 {
+//    cout << CAMINHO_ARQUIVO << endl;
+
+    salvarRegistroCSV(NULL);
+
     cout << "Hello world!" << endl;
     return 0;
 }

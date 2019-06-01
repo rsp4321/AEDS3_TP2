@@ -32,10 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="io.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="io.h" />
+		<Unit filename="io.cpp" />
+		<Unit filename="io.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="registros.c">
 			<Option compilerVar="CC" />
