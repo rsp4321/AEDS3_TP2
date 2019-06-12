@@ -1,4 +1,4 @@
-#ifndef IO_HPP_INCLUDED  // Esse código é gerado pelo próprio CodeBlocks
+#ifndef IO_HPP_INCLUDED  // Esse cï¿½digo ï¿½ gerado pelo prï¿½prio CodeBlocks
 #define IO_HPP_INCLUDED
 
 #include "registros.h"
@@ -13,7 +13,7 @@
 //#define CAMINHO_ARQUIVO ".." ## PATH_SEPARATOR ## ".." ## PATH_SEPARATOR ## registros-csv ## PATH_SEPARATOR ## NOME_ARQUIVO
 
 
-void salvarRegistroCSV(Registro *estrutura_registro);    // Assinatura do método de salvamento do registro em CSV
+void salvarRegistroCSV(Registro *estrutura_registro);    // Assinatura do mÃ©todo de salvamento do registro em CSV
 
 
 #endif // IO_HPP_INCLUDED
