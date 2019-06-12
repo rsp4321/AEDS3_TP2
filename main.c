@@ -19,6 +19,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
 // Estruturas e constantes definidas no exercício
 #define MAX_REGISTROS 1000000000
 #define MAX_CHARS 80
@@ -36,7 +37,8 @@ typedef struct {
     char sexo;              // valor aleatório ’F’ ou ’M’
     char cep[8];            // valor aleatório dentre 10 cep’s pré-definidos
 } Registro;
-
+*/
+// Foi definido no arquivo "registros.c"
 
 int main(int argc, char** argv) {
 

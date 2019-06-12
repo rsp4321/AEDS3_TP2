@@ -4,11 +4,15 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Arquivos de Cabeçalho"
                    projectFiles="true">
+      <itemPath>io.h</itemPath>
+      <itemPath>registros.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
                    projectFiles="true">
+      <itemPath>io.c</itemPath>
       <itemPath>main.c</itemPath>
+      <itemPath>registros.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Arquivos de Recurso"
@@ -40,7 +44,15 @@
           <commandLine>-Wall -ansi -pedantic -O2 -U_FORTIFY_SOURCE</commandLine>
         </cTool>
       </compileType>
+      <item path="io.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="io.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="registros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="registros.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -65,7 +77,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="io.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="io.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="registros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="registros.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
