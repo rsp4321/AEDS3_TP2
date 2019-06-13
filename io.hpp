@@ -1,8 +1,10 @@
 #ifndef IO_HPP_INCLUDED  // Esse c�digo � gerado pelo pr�prio CodeBlocks
 #define IO_HPP_INCLUDED
 
-#include "registros.h"
-#include <string>
+//#include "registros.h"
+#include "registros.hpp"
+
+//#include <string>
 
 //#define NOME_ARQUIVO "registros.csv"
 
